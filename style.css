@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+    background-image: linear-gradient(43deg, #9f736c11 0%, #1f140e97 46%, #292016aa 100%),url(/img/background_image.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right;
+}
+
+main {
+    width: 30%;
+   margin: auto;
+   background-color: black;
+}
+#container {
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#title {
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Sigmar', cursive;
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .par {
+    
+  text-align: center;
+  font-size: 1.4rem;
+  }
+
+  #span1{
+    color: red;
+  }
+
+  #name {
+    margin-bottom: 10px;
+    
+  }
+
+  #age {
+    
+  }
+.feedback{
+    width:80%;
+margin-right: auto;
+}
+
+button {
+    margin-top: 15px;
+  margin-left: 150px;
+}
