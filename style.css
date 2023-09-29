@@ -15,25 +15,37 @@ body {
 }
 
 main {
-    width: 30%;
+  width: 30%;
    margin: auto;
    background-color: black;
 }
 #container {
-    width: 80%;
-    margin: auto;
-    margin-top: 10px;
+  background-color: black;
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+  content: '';
+  
+  position: absolute;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;        
+  opacity: 0.1;      
+  
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #title {
-    font-family: 'Playfair Display SC', serif;
-    font-family: 'Sigmar', cursive;
-    font-size: 3rem;
-    text-align: center;
+  font-family: 'Playfair Display SC', serif;
+  font-family: 'Sigmar', cursive;
+  font-size: 3rem;
+  text-align: center;
   }
 
-  .par {
-    
+  .par {    
   text-align: center;
   font-size: 1.4rem;
   }
@@ -42,20 +54,16 @@ main {
     color: red;
   }
 
-  #name {
-    margin-bottom: 10px;
-    
+#name {
+    margin-bottom: 10px;    
   }
 
-  #age {
-    
-  }
 .feedback{
-    width:80%;
-margin-right: auto;
+  width:80%;
+  margin-right: auto;
 }
 
 button {
-    margin-top: 15px;
+  margin-top: 15px;
   margin-left: 150px;
 }
