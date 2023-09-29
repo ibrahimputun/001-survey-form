@@ -16,7 +16,6 @@ body {
 
 main {
   width: 30%;
-<<<<<<< HEAD
   margin: auto;
   background-color: black;
 }
@@ -24,28 +23,6 @@ main {
   width: 80%;
   margin: auto;
   margin-top: 10px;
-=======
-   margin: auto;
-   background-color: black;
-}
-#container {
-  background-color: black;
-  width: 80%;
-  margin: auto;
-  margin-top: 10px;
-  content: '';
-  
-  position: absolute;
-  top:0;
-  right:0;
-  bottom:0;
-  left:0;        
-  opacity: 0.1;      
-  
-  background-position:center;
-  background-repeat: no-repeat;
-  background-size: cover;
->>>>>>> c1d60c424554a635b4c528c7420f9e7d2a731b0a
 }
 
 #title {
@@ -55,11 +32,7 @@ main {
   text-align: center;
   }
 
-<<<<<<< HEAD
 .par {    
-=======
-  .par {    
->>>>>>> c1d60c424554a635b4c528c7420f9e7d2a731b0a
   text-align: center;
   font-size: 1.4rem;
   }
@@ -69,18 +42,12 @@ main {
   }
 
 #name {
-<<<<<<< HEAD
     margin-bottom: 10px;
     
   }
 
      
   }
-=======
-    margin-bottom: 10px;    
-  }
-
->>>>>>> c1d60c424554a635b4c528c7420f9e7d2a731b0a
 .feedback{
   width:80%;
   margin-right: auto;
